@@ -1,0 +1,49 @@
+// Lecture One :-> More about variables scope and Datatype
+
+What is Javascript ?
+
+What is the difference between interpreted and compile language ?
+
+What is the features of Javascript ?
+
+What is the difference between var, let and const ? when to use them ?
+
+What is client side and server side ?
+
+Cases
+eg:-> Camel Case -> userName  -> can be used for variables
+    Snake Case => user_name  =>  mostly used for files
+    Kabeb case =>
+
+What is primitive and non-primitive Datatype?
+
+primitive types:
+String
+Boolean
+Symbol
+Number
+Null
+undefined
+
+Non-primitive/ Complex types
+Arrays
+functions
+Objects
+
+Difference between primitive and non-primitive Datatype ?
+
+What is JSON ?
+
+
+// Lecture Two:
+Operators
+
+Preincrement and postincrement
+
+String and its utility functions
+
+
+// Own
+a) What is Execution Context ?
+
+b) What is Call Stack ?

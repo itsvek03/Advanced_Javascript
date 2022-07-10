@@ -1,0 +1,43 @@
+// async and defer are boolean attributes which used along with script tag to load the
+// external script efficiently into our web page
+
+// When we load a html page two major things happen :->
+// HTML parsing
+// loading of the scripts. it contains two parts
+// -> Fetching the load of the network
+// -> Executing the script line by line
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    // Normal Script tag
+    // Never use script tag in head section instead use in the body section
+    <script src="Hello.js"></script>
+
+
+
+    // Async script Tag
+    // Used for third party library
+    <script async src="Hello.js"></script>
+
+
+
+    // Defer Script Tag
+    // Used when more script are depend on each other
+    // Used defer in head section
+    <script defer src="Hello.js"></script>
+
+</body>
+
+</html>
